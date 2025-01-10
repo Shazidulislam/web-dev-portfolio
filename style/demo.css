@@ -1,0 +1,116 @@
+
+/* reset code and common start here  */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+}
+html{
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "open sans",sans-serif;
+}
+body{
+    background-color: #fff;
+    width: 140rem;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0,1rem #c4c4c4;
+
+}
+.text-center{
+    text-align: center;
+}
+.color-darl-1{
+    color: #181818;
+}
+.section-heading{
+
+}
+.btn{
+    background-color: #FD6E0A;
+    padding: 1.1rem 2.2rem;
+    border: none;
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 22px ;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+/* reset code and common end here  */
+/* header style start here  */
+header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right; 
+    background-color: #F6C794;
+}
+.header-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__main{
+    font-size: 45px;
+    font-weight: 600;
+    padding-left: .99rem;
+}
+.header__sub{
+    font-size: 85px;
+    font-weight: 700;
+}
+.my__cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 70px 0;
+    gap: 1rem;
+    margin: 1rem;
+}
+.header__description{
+    font-size: 16px;
+    color: #757575;
+    width: 500px;
+}
+.sub__btn{
+    background-color: #fff;
+    color: #FD6E0A;
+    border: 1.5px solid #FD6E0A;
+}
+/* header style end here  */
+/* nav style code start here  */
+.nav__heading{
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.paltu{
+    color: #FD6E0A;
+    font-weight: 800;
+}
+.nav__link{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+.nav__ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin: 1rem;
+}
+/* nav style code end here  */
+
+
